@@ -24,6 +24,7 @@ public class Test1 {
 		System.out.println(result);
 		System.out.print("짱 깬 뽀 ! :");
 	
+		sc.close();
 		}
 	}
 

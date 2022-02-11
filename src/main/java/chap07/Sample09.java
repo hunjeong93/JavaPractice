@@ -18,6 +18,7 @@ public class Sample09 {
 		
 		};
 		System.out.println(season);
+		sc.close();
 
 	}
 

@@ -4,7 +4,7 @@ public class Student {
 	static String name; //정적 내부 클래스는 static 멤버 변수만 접근이 가능
 	
 	public Student(String name) {
-		this.name = name;
+		Student.name = name;	//this.name 이었으나 static으로 이미 선언이 되었기때문에 바로 호출해도 됨.
 	}
 	
 	public static class Score{
