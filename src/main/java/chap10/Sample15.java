@@ -51,6 +51,7 @@ public class Sample15 {
 class Group<G>{
 	private int listCount = 0;
 	
+	@SuppressWarnings("unchecked")
 	private G[]	group = (G[]) new Object[listCount];
 	
 	public void add(G g) {

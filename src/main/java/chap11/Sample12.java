@@ -6,6 +6,7 @@ import java.util.Set;
 
 public class Sample12 {
 
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		var map = new HashMap<String, Integer>(); //키:언어, 값: 순위
 		map.put("Java", 1);

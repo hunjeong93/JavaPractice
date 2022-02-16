@@ -13,6 +13,7 @@ public class Test3_2 {
 enum Compute1{
 	PLUS,MINUS,TIMES,DIVIDE;
 	
+	@SuppressWarnings("incomplete-switch")
 	public void getResult(int a, int b) {
 		switch(this) {
 		case PLUS -> System.out.printf("%d + %d = %d", a, b, a+b);

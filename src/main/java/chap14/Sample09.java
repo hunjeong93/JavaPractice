@@ -2,7 +2,7 @@ package chap14;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
-
+@SuppressWarnings("unused")
 public class Sample09 {
 	private String test;
 	

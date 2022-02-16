@@ -3,9 +3,10 @@ package chap11;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings({ "unchecked", "rawtypes" })
 public class Sample03 {
 	public static void main(String[] args) {
-List<String> arr = new ArrayList();
+		List<String> arr = new ArrayList();
 		
 		//5개의 문자열을 추가한다.
 		arr.add("하나");

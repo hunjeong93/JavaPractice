@@ -2,7 +2,7 @@ package chap08;
 
 import lombok.Builder;
 import lombok.RequiredArgsConstructor;
-
+@SuppressWarnings("unused")
 public class Sample27 {
 	public static void main(String[] args) {
 		//Person2 per1 = new Person(1);
@@ -24,7 +24,7 @@ public class Sample27 {
 	
 }
 
-
+@SuppressWarnings("unused")
 @RequiredArgsConstructor
 class Person2 {
 	private final int no;

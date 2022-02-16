@@ -6,6 +6,7 @@ import java.util.List;
 public class Sample02 {
 
 	public static void main(String[] args) {
+@SuppressWarnings({ "unchecked", "rawtypes" })
 List<String> arr = new ArrayList();
 		
 		//5개의 문자열을 추가한다.

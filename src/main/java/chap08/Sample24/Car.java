@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
-
+@SuppressWarnings("unused")
 @NoArgsConstructor
 @AllArgsConstructor
 @RequiredArgsConstructor

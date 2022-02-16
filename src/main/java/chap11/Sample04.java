@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Sample04 {
 
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static void main(String[] args) {
 List<String> arr = new ArrayList();
 		
