@@ -9,6 +9,7 @@ public class Sample23 {
 	@SafeVarargs
 	public static void safe(int... toAdd) {}
 	
+	@SuppressWarnings("unused")
 	@SafeVarargs
 	private <T> void safe2(T... toAdd)	{}
 }
